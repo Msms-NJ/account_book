@@ -29,3 +29,6 @@ account_book-*.tar
 
 # Visual Code Editor Files
 /.elixir_ls/
+
+# 配置文件不上传 svn
+/config/dev.exs
