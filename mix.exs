@@ -42,7 +42,31 @@ defmodule AccountBook.MixProject do
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      # Guardian is a token based authentication library for use with Elixir applications.
+      {:guardian, "~> 2.1.1"},
+      # Argon2 password hashing algorithm for Elixir
+      {:argon2_elixir, "~> 2.4"},
+      # Cron-like job scheduler for Elixir.
+      {:quantum, "~> 3.3"},
+      # Yet Another HTTP client for Elixir powered by hackney
+      {:httpoison, "~> 1.8"},
+      # Ecto extension to support enums in models
+      {:ecto_enum, "~> 1.4"},
+      # Powerful in-memory key/value storage for Elixir
+      {:cachex, "~> 3.3"},
+      # Timex is a rich, comprehensive Date/Time library for Elixir projects,
+      # with full timezone support via the :tzdata package.
+      # If you need to manipulate dates, times, datetimes, timestamps, etc., then Timex is for you!
+      {:timex, "~> 3.6"},
+      # The Official Elixir client for Sentry
+      {:sentry, "~> 8.0"},
+      # Paginate your Ecto queries with Scrivener
+      {:scrivener_ecto, "~> 2.4"},
+      # Tzdata is a parser and library for the tz database.
+      {:tzdata, "~> 1.1"},
+      # Credo is a static code analysis tool for the Elixir language with a focus on teaching and code consistency.
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
     ]
   end
 
